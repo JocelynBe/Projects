@@ -1,2 +1,0 @@
-# SchoolProjects
-School research projects
