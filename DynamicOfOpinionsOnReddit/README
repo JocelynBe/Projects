@@ -1,0 +1,10 @@
+The year 2017 brought cryptocurrencies to the public. This exposure is probably one of the biggest reasons for the bull-run we have witnessed at the end of the year 2017, bringing the price of Bitcoin and others cryptocurrencies to an all time high followed by a violent dump.
+One thing we noticed during this period is the strong influence of social medias on prices. Rumors spread on Twitter regarding the next cryptocurrency that would allegedly be brought to Coinbase – one of the most popular platforms for casual users – influenced the prices of some cryp- tocurrencies. Likewise, some users post on a daily basis laudatory comments aimed at influencing readers to buy a given cryptocurrency.
+For those reasons, we wanted to take a dive into Reddit’s data, the 6th most visited website in the entire world, and do the following three things:
+1. Automatically detect complex aggregated topics discussed by users ;
+2. Described aforementioned topics and labeling them with significant keywords ; 3. Track the persistence and dynamic of said topics over-time.
+We developed a pipeline using already known tools, some of which we had to get familiar with like NLP and spectral clustering. The input is the comments posted on a given subset of subreddits with cryptocurrencies as their main topic, the output is for each time window a clustering of comments with associated keywords.
+
+If we successfully managed to find meaningful clusters and to detect keywords using unsupervised clustering, we must remain careful because we had to do many choices and tuning under the constraint of time complexity as we had a very limited computing power compared to the quantity of data.
+
+While we did not fulfill all the goals we had set for ourselves, the approach we took seems nonetheless promising as we managed to detect signal despite the many areas of possible improve- ments remaining.
